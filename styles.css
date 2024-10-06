@@ -1,0 +1,115 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7); /* Darken the background slightly */
+    color: #ffffff;
+    line-height: 1.6;
+    position: relative;
+}
+
+/* Background Image as an img tag */
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.3; /* Adjust opacity for background visibility */
+}
+
+/* Header and Logo */
+header {
+    background-color: rgba(76, 175, 80, 0.8); /* Slight transparency */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.datapack-logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Main Content */
+main {
+    margin-top: 20px;
+}
+
+.description, .downloads, .ad-space {
+    background-color: rgba(51, 51, 51, 0.8); /* Transparent dark background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.description h2, .downloads h2, .ad-space h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 1.2rem;
+}
+
+.downloads .download-count {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.downloads .icon {
+    font-size: 1.8rem;
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #45a049;
+}
+
+.ad-space .ad-banner {
+    height: 100px;
+    background-color: rgba(85, 85, 85, 0.8); /* Transparent background for ad banner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: #dddddd;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
